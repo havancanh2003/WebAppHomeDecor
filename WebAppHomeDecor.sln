@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34511.84
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{0DD49D46-CE06-4CED-9C1E-CDE3CDFE6904}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application", "Application", "{B6854EE0-A2D3-4889-8AB7-94A9C76CF877}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{5D593E04-6430-4BC9-936B-7852CD0BA441}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{407DDACA-A57C-40B3-B37A-EC18CE2932F5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebAppHomeDecor.Application", "WebAppHomeDecor.Application\WebAppHomeDecor.Application.csproj", "{A0BA6F4A-BEA5-47AE-BFE9-151A16E5DB67}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebAppHomeDecor.Domain", "WebAppHomeDecor.Domain\WebAppHomeDecor.Domain.csproj", "{280AF108-23F5-4F1F-AAB5-ECFCCF03AD58}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebAppHomeDecor.Infrastructure", "WebAppHomeDecor.Infrastructure\WebAppHomeDecor.Infrastructure.csproj", "{1020C337-3F57-448C-90FE-014CF70BAA83}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebAppHomeDecor.Web", "WebAppHomeDecor.Web\WebAppHomeDecor.Web.csproj", "{4C903E61-AB68-451C-99E6-7041C2DE8331}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A0BA6F4A-BEA5-47AE-BFE9-151A16E5DB67}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A0BA6F4A-BEA5-47AE-BFE9-151A16E5DB67}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A0BA6F4A-BEA5-47AE-BFE9-151A16E5DB67}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A0BA6F4A-BEA5-47AE-BFE9-151A16E5DB67}.Release|Any CPU.Build.0 = Release|Any CPU
+		{280AF108-23F5-4F1F-AAB5-ECFCCF03AD58}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{280AF108-23F5-4F1F-AAB5-ECFCCF03AD58}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{280AF108-23F5-4F1F-AAB5-ECFCCF03AD58}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{280AF108-23F5-4F1F-AAB5-ECFCCF03AD58}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1020C337-3F57-448C-90FE-014CF70BAA83}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1020C337-3F57-448C-90FE-014CF70BAA83}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1020C337-3F57-448C-90FE-014CF70BAA83}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1020C337-3F57-448C-90FE-014CF70BAA83}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4C903E61-AB68-451C-99E6-7041C2DE8331}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C903E61-AB68-451C-99E6-7041C2DE8331}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C903E61-AB68-451C-99E6-7041C2DE8331}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C903E61-AB68-451C-99E6-7041C2DE8331}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A0BA6F4A-BEA5-47AE-BFE9-151A16E5DB67} = {B6854EE0-A2D3-4889-8AB7-94A9C76CF877}
+		{280AF108-23F5-4F1F-AAB5-ECFCCF03AD58} = {0DD49D46-CE06-4CED-9C1E-CDE3CDFE6904}
+		{1020C337-3F57-448C-90FE-014CF70BAA83} = {5D593E04-6430-4BC9-936B-7852CD0BA441}
+		{4C903E61-AB68-451C-99E6-7041C2DE8331} = {407DDACA-A57C-40B3-B37A-EC18CE2932F5}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {84CC29FA-0ADE-45E2-985D-DF47448B3D6B}
+	EndGlobalSection
+EndGlobal

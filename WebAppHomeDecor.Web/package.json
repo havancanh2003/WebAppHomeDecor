@@ -1,0 +1,17 @@
+{
+  "name": "webapphomedecor.web",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "sass ./wwwroot/Themes/Content/Scss/root-styles.scss:./wwwroot/Themes/Content/Css/root-styles.css --no-source-map --style compressed",
+    "watch-css": "sass --watch ./wwwroot/Themes/Content/Scss/root-styles.scss:./wwwroot/Themes/Content/Css/root-styles.css --no-source-map --style compressed"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "sass": "^1.79.1"
+  }
+}
